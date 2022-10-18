@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cheonkyu/nuxt-ts.git",
+  "author": "cheonkyu0 <cheonkyu0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "nuxt": "^2.15.8"
+  }
+}
